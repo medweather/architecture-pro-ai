@@ -67,3 +67,45 @@
 ### Вывод по эмбеддингам
 
 Для SOC 2 и конфиденциальности рекомендуется bge-m3 (BAAI): сопоставимое качество, hybrid retrieval (dense + sparse), полностью локально. Статья: https://arxiv.org/abs/2402.03216
+
+---
+
+## 3. Сравнение векторных баз: ChromaDB vs FAISS
+
+### ChromaDB
+
+Скорость поиска: < 10 мс на 20K векторах (hnswlib). Масштабируется до ~1M векторов без деградации.
+
+Индексация: 500-1000 векторов/с. Поддерживает инкрементальное добавление без перестроения.
+
+Внедрение: pip install chromadb + 5 строк кода. Встроенный persistent storage (SQLite + DuckDB). Metadata-фильтрация из коробки.
+
+Удобство: Python-native API (collection.add, collection.query). Автоматическое хранение метаданных. Встроенные embedding-функции длля OpenAI, Cohere, HuggingFace.
+
+Стоимость: бесплатно (Apache 2.0). Хранение: ~80 MB на 20 000 векторов (1024 dim). Минимальные требвания: 512 MB RAM, 1 vCPU.
+
+Совместимость: LlamaIndex, LangChain - first-class citizens.
+
+Источники: [ChromaDB](https://docs.trychroma.com/), [ChromaDB GitHub](https://github.com/chroma-core/chroma), [hnswlib](https://github.com/nmslib/hnswlib)
+
+### FAISS
+
+Скорость поиска: <5 мс (IndexFlatIP), <2 мс (IndexIVFFlat). Нативный C++ с Python-обвязкой, быстрее ChromaDB на 30-50%.
+
+Индексация: ~2000 векторов/с (Flat). IVF-индексы ттребуют периодического перестроения (retraining).
+
+Внедрение: pip install faiss-cpu / faiss-gpu. Ручное управление сериализацией (.save / .read). Metadata-фильтрация - только кастомная.
+
+Удобство: только операции над векторами. Метаданные отдельно (PostgreSQL в QuantumForge уже ест).
+
+Соимость: беслатно (MIT).
+
+источники: [FAISS](https://github.com/facebookresearch/faiss)
+### Вывод
+
+ChromaDB - оптимальный выбор для ~21 000 документов и роста до 50 000+. Причины:
+- Простота: меньше кода, встроенные метаданные и фильтрация.
+- Инкрементальное обновление критично при приросте 400 стр./мес - не нужно перестраивать индекс.
+- Совместимость с LlamaIndex и LangChain ускоряет разработку.
+
+FAISS имеет смысл при 500 000+ векторов и предельных требованиях к скорости. Для старта избыточен.
