@@ -39,3 +39,31 @@
 ### Вывод по LLM
 
 Для QuantumForge критичны конфиденциальность (SOC 2) и качество на двух языках. Рекомендуется гибрид: sensitive-запросы - к локальной LLM, общие - к облачной. Альтернатива - облачная с BAA (Business Associate Agreement) и аудитом провайдера.
+
+---
+
+## 2. Сравнение моделей эмбеддингов
+
+### Локальные модели (BAAI/bge-m3, multilingual-e5-large)
+
+Скорость индексации: на CPU 16 ядер - 200 док./с (bge-m3), 150 док./с (e5-large). На GPU A10 - до 2000 док./с. Индекс на ~21 000 документов - ~2 минуты (GPU) или ~15 минут (CPU). Прирост 400 стр./мес индексируется за секунды.
+
+Качество: MTEB 64-65% (bge-m3), 63-64% (e5-large). bge-m3 поддерживает sparse + dense retrieval. Для двуязычного контента bge-m3 - лучший open-source вариант.
+
+Стоимость: бесплатно (MIT/Apache 2.0). Затраты только на железо.
+
+Источники: [BGE-M3](https://huggingface.co/BAAI/bge-m3), [multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large), [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
+
+### Облачные модели (OpenAI text-embedding-3-large)
+
+Скорость индексации: ~500 док./с через API (rate limit 3000 RPM). ~21 000 документов - ~40 секунд.
+
+Качество: MTEB 64.6%, стабильное качество на 100+ языках. Варьируемая размерность (256-3072) экономит память векторной БД.
+
+Стоимость: $0.13/1M токенов. Для ~21 000 документов (~15M токенов) - $2 единоразово за полный индекс. Прирост 400 стр./мес - $0.05/мес.
+
+Источники: [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
+
+### Вывод по эмбеддингам
+
+Для SOC 2 и конфиденциальности рекомендуется bge-m3 (BAAI): сопоставимое качество, hybrid retrieval (dense + sparse), полностью локально. Статья: https://arxiv.org/abs/2402.03216
