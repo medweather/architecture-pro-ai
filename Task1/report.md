@@ -109,3 +109,27 @@ ChromaDB - оптимальный выбор для ~21 000 документов
 - Совместимость с LlamaIndex и LangChain ускоряет разработку.
 
 FAISS имеет смысл при 500 000+ векторов и предельных требованиях к скорости. Для старта избыточен.
+
+---
+
+## 4. Конфигурация сервера
+
+### Без GPU (CPU-only, рекомендуется для Hybrid)
+
+- LLM (GGUF Q4): 8 vCPU, 32 GB RAM
+- Embedding (bge-m3): 4 vCPU, 16 GB RAM
+- ChromaDB + Backend API: 2 vCPU, 8 GB RAM, 50 GB SSD
+- Итого: 16 vCPU, 64 GB RAM, 50 GB SSD
+
+Модель Llama 3.1 8B в 4-битном квантовании (Q4_K_M) даёт ~5-8 токенов/с. Приемлемо для неинтерактивных сценариев. На AWS - эквивалент EC2 c6i.4xlarge (16 vCPU, 32 GB, ~$560/мес on-demand; ~$200/мес при 1-year reserved).
+
+### С GPU
+
+- LLM (vLLM, Llama 3.1 8B): 8 vCPU, 32 GB RAM, 1x A10 (24 GB) или L40S (48 GB)
+- Embedding (bge-m3): 4 vCPU, 16 GB RAM, совмещено с LLM-GPU
+- ChromaDB + Backend API: 2 vCPU, 8 GB RAM, 50 GB SSD
+- Итого: 16 vCPU, 64 GB RAM, 1x A10, 50 GB SSD
+
+A10 обеспечивает Llama 3.1 8B в FP16 - ~30 токенов/с, эмбеддинги - ~2000 док./с. L40S (48 GB) позволит загрузить Llama 3.1 70B.
+
+Источники: [AWS EC2 Pricing](https://aws.amazon.com/ec2/pricing/on-demand/), [vLLM Performance](https://blog.vllm.ai/2023/06/20/vllm.html), [Llama GGUF](https://huggingface.co/docs/transformers.js/guides/llama_gguf)
