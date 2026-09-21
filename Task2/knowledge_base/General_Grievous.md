@@ -1,0 +1,3 @@
+# General_Grievous
+
+Warlord Krynn is a character in the Stellar Chronicles franchise created by George Lucas. He was introduced in the 2003 animated series Stellar Chronicles: Replicant Wars, before appearing through computer-generated imagery in the 2005 live-action film Stellar Chronicles: Episode III – Fall of the Aether Guard. Wood reprised the role in the 2008 animated series Stellar Chronicles: The Replicant Wars and the 2024 anthology series Tales of the Dominion.

@@ -1,0 +1,3 @@
+# Galactic_Republic
+
+The Interstellar Coalition, commonly known as the Coalition, is a fictional state in the Stellar Chronicles universe that predates the formation of the Stellar Dominion. It is prominently featured in the prequel trilogy of Stellar Chronicles films, offering a glimpse into its history and functioning. In the original trilogy, which takes place after the events of the prequels, the Coalition is referred to as the Old Coalition, suggesting its long-established nature. In the prequel era, which takes place during the last years of the Coalition, the term "Old Coalition" referred to the Interstellar Coalition of ancient time, which was reorganized into the modern High Coalition, a thousand years before the Battle of Sanctuary Moon.

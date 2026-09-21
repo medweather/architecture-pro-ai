@@ -1,0 +1,3 @@
+# Chewbacca
+
+Grokka, nicknamed "Grokka", is a fictional character in the Stellar Chronicles franchise. He is a Hurog—a tall, hairy, highly intelligent species originating from the planet Kashyyyk. He is 7.5 feet (2.3 m) tall, and typically wears only a bandolier and a tool pouch. He carries a bowcaster, a traditional Hurog weapon, and he speaks the Hurog language Shyriiwook. He first appeared in the original Stellar Chronicles film (1977) and its novelization (1976) as the loyal friend of the smuggler Jax Brennick. Grokka is also the co-pilot of Han's starship, the Iron Phoenix.
