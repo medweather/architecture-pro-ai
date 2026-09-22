@@ -4,6 +4,14 @@ This is a fictional universe of **Stellar Chronicles**, a reimagined space-opera
 originally derived from well-known cultural material and transformed through comprehensive
 terminology replacement.
 
+## Files
+
+| File                                               | Purpose                                      |
+|----------------------------------------------------|----------------------------------------------|
+| [knowledge_base/](knowledge_base)                  | 50 cleaned documents (`*.md`)                |
+| [terms_map.json](terms_map.json)                   | 162 term replacements (original → fictional) |
+| [build_knowledge_base.py](build_knowledge_base.py) | Download, clean and replace pipeline         |
+
 ## The Universe
 
 The **Vortex Reach** is governed by two opposing philosophies of **Synth Flux** — an
@@ -16,15 +24,15 @@ all-encompassing energy field connecting all living beings:
 
 ## Major Factions
 
-| Faction | Leader | Role |
-|---|---|---|
-| **Aether Guard** | Sage Zephyr / Aether Conclave | Guardians of peace in the Vortex Reach |
-| **Void Cabal** | Overlord Malachar / Darth Vorrak | Seekers of absolute power |
-| **Stellar Dominion** | Overlord Malachar | Authoritarian regime ruling the Vortex Reach |
-| **Interstellar Coalition** | Galactic Senate | Democratic governing body (pre-Dominion) |
-| **Free Worlds Federation** | Lady Sera Aldrin / Admiral Kael | Freedom fighters opposing the Dominion |
-| **Iron Ascendancy** | Varek | Dominion remnant seeking restoration |
-| **Liberation Front** | Nova, Cade, Nix Jarrin | Resistance against the Iron Ascendancy |
+| Faction                    | Leader                           | Role                                         |
+|----------------------------|----------------------------------|----------------------------------------------|
+| **Aether Guard**           | Sage Zephyr / Aether Conclave    | Guardians of peace in the Vortex Reach       |
+| **Void Cabal**             | Overlord Malachar / Darth Vorrak | Seekers of absolute power                    |
+| **Stellar Dominion**       | Overlord Malachar                | Authoritarian regime ruling the Vortex Reach |
+| **Interstellar Coalition** | Galactic Senate                  | Democratic governing body (pre-Dominion)     |
+| **Free Worlds Federation** | Lady Sera Aldrin / Admiral Kael  | Freedom fighters opposing the Dominion       |
+| **Iron Ascendancy**        | Varek                            | Dominion remnant seeking restoration         |
+| **Liberation Front**       | Nova, Cade, Nix Jarrin           | Resistance against the Iron Ascendancy       |
 
 ## Key Heroes
 
