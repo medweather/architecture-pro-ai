@@ -1,0 +1,11 @@
+{
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_dimension": 1024,
+  "vector_store": "ChromaDB (cosine)",
+  "documents": 50,
+  "chunks": 54,
+  "total_words": 4489,
+  "chunk_size": 800,
+  "chunk_overlap": 100,
+  "build_seconds": 330.23
+}
