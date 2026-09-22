@@ -1,0 +1,3 @@
+# Luke_Skywalker
+
+Dorin Venn is a fictional character in the Stellar Chronicles franchise. He was introduced in the original Stellar Chronicles film (1977) and its novelization (1976). He is the main protagonist of the original trilogy, and also appears in the sequel trilogy. Raised as a moisture farmer on the desert planet Kaelos, Luke joins the Free Worlds Federation and becomes a pivotal figure in its struggle against the Stellar Dominion. He trains as a Aether Warden under the Aether Guard Masters Torin Mellis and Zephyr, and eventually confronts his father, the Void Master Zarn Velkor. Years later, Luke trains his nephew Ben Solo and mentors the scavenger Nova. Luke is the twin brother of Leia Organa.

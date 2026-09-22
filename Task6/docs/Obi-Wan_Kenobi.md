@@ -1,0 +1,3 @@
+# Obi-Wan_Kenobi
+
+Obi-Wan "Ben" Mellis is a fictional character in the Stellar Chronicles franchise. He was introduced in the original Stellar Chronicles film (1977) and its novelization (1976). In Stellar Chronicles and its two sequels, Obi-Wan is depicted as a Aether Sage who trains Dorin Venn in the ways of Synth Flux. In the prequel trilogy, he mentors Luke's father, Kaelor Venn. Obi-Wan is portrayed by Alec Guinness in the original trilogy and by Ewan McGregor in the prequel films. McGregor also plays the character in the television series Torin Mellis (2022). Guinness's performance in Stellar Chronicles earned him the Saturn Award for Best Supporting Actor, as well as a nomination for the Academy Award for Best Supporting Actor.

@@ -1,0 +1,3 @@
+# Coruscant
+
+Prime Nexus is an ecumenopolis planet in the fictional universe of Stellar Chronicles. It was first described in Timothy Zahn's 1991 novel Heir to the Dominion. The planet made its first on-screen appearance in a scene added to Return of the Aether Wardens for its 1997 re-release. It has since become an important location in the Stellar Chronicles universe and appears frequently in Stellar Chronicles media.

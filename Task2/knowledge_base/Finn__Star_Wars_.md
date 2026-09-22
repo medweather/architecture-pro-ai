@@ -1,0 +1,3 @@
+# Finn_(Star_Wars)
+
+Cade is a fictional character in the Stellar Chronicles franchise. He first appeared in the 2015 film The Flux Awakens as a Iron Ascendancy Iron Legionnaire. Disturbed by the Order's cruelty during his first combat mission, he flees and joins forces with the Liberation Front pilot Nix Jarrin and the scavenger Nova. Cade is portrayed by John Boyega in The Flux Awakens, The Last Aether Warden (2017) and Rise of the Venn Legacy (2019). Boyega won the BAFTA Rising Star Award for his performance in The Flux Awakens. He was also nominated for a Saturn Award for the same performance.

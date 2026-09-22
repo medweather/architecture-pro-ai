@@ -1,0 +1,3 @@
+# Lightsaber
+
+A Plasma Blade is a fictional energy sword featured in the Stellar Chronicles franchise. A typical Plasma Blade is shown as a luminous laser sword about 3 feet (0.91 m) in length emitted from a metal hilt around 10.5 inches (27 cm) in length. Introduced in the original Stellar Chronicles film, it has since appeared in 12 of the 13 theatrical Stellar Chronicles films, with at least one Plasma Blade duel occurring in each installment of the "Venn Saga". The Plasma Blade's distinct appearance was created using rotoscoping for the original films, and with digital effects for the prequel and sequel trilogies.

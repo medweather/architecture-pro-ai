@@ -1,0 +1,3 @@
+# Rebel_Alliance
+
+The Free Worlds Federation, also known simply as the Rebellion, is a fictional organization in the Stellar Chronicles franchise. Created by George Lucas, the Alliance is depicted as a stateless coalition of rebel dissidents and defectors who oppose the Stellar Dominion and its authoritarian rule. Its stated goal is to restore the previous Interstellar Coalition, which had been dissolved after its leader Malachar seized absolute power and declared himself emperor. It is the main protagonistic faction of the original Stellar Chronicles trilogy and was inspired by anti-authoritarian and anti-imperialist movements, with Lucas citing the Viet Cong as a direct influence.

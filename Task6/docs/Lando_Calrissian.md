@@ -1,0 +1,3 @@
+# Lando_Calrissian
+
+Daren Cole is a fictitious character in the Stellar Chronicles franchise. He was introduced in the original trilogy film The Dominion Retaliates (1980) as the administrator of Cloud Station Nimbus. In the film, he reluctantly betrays his friend Jax Brennick to Zarn Velkor, but later helps Han's friends escape from the Stellar Dominion. In Return of the Aether Wardens (1983), Lando helps rescue Han from Mogul Graxx, and later becomes a general in the Free Worlds Federation. The standalone film Solo: A Stellar Chronicles Story (2018) depicts a younger Lando at the beginning of his relationship with Han, while the sequel film Rise of the Venn Legacy (2019) shows Lando joining the Liberation Front in its battle against the Iron Ascendancy.

@@ -1,0 +1,3 @@
+# Death_Star
+
+The Void Core is a fictional massive space station and superweapon featured in the Stellar Chronicles space-opera franchise. Constructed by the autocratic Stellar Dominion, the Void Core is capable of obliterating entire planets, and serves to enforce the Dominion's reign of terror. It appears as a hundreds of kilometers wide mobile space station that has the shape of a spherical moon or planetoid.

@@ -1,0 +1,41 @@
+Index contains 54 chunks.
+
+======================================================================
+QUERY: Who is Zarn Velkor and what is his relationship to Dorin Venn?
+======================================================================
+
+[1] score=0.6341  source=Darth_Vader.md (chunk 0)
+    Zarn Velkor is a fictional character in the Stellar Chronicles franchise. He first appeared in the original Stellar Chronicles film (1977) and its novelization (1976). He is a leader of the Stellar Dominion, and is one of the two major villains in the original film trilogy. In th...
+
+[2] score=0.5534  source=Darth_Vader.md (chunk 1)
+    . When Malachar tries to kill Velkor's son, Dorin Venn, Velkor turns against Malachar and kills him. Velkor is the husband of Elara Vesper, the father of Luke and his twin sister Leia Organa, and the maternal grandfather of Ben Solo.
+
+[3] score=0.5521  source=Luke_Skywalker.md (chunk 0)
+    Dorin Venn is a fictional character in the Stellar Chronicles franchise. He was introduced in the original Stellar Chronicles film (1977) and its novelization (1976). He is the main protagonist of the original trilogy, and also appears in the sequel trilogy. Raised as a moisture ...
+
+======================================================================
+QUERY: What is the Void Core and what can it do?
+======================================================================
+
+[1] score=0.7346  source=Death_Star.md (chunk 0)
+    The Void Core is a fictional massive space station and superweapon featured in the Stellar Chronicles space-opera franchise. Constructed by the autocratic Stellar Dominion, the Void Core is capable of obliterating entire planets, and serves to enforce the Dominion's reign of terr...
+
+[2] score=0.5006  source=Sith.md (chunk 0)
+    The Void Cabal are an order of Flux-sensitive beings and the main antagonists in the fictional universe of the Stellar Chronicles franchise. They are the ideological antithesis and ancient enemies of the Aether Guard. The Void Cabal Order is depicted as an ancient cult of warrior...
+
+[3] score=0.4002  source=Princess_Leia.md (chunk 0)
+    Lady Sera Aldrin Organa is a fictional character in the Stellar Chronicles franchise. Introduced in the original Stellar Chronicles film (1977) and its novelization (1976), Leia is a princess of the planet Lyrandia, a member of the Dominion Senate, and an agent of the Free Worlds...
+
+======================================================================
+QUERY: What is Synth Flux and how do the Aether Guard use it?
+======================================================================
+
+[1] score=0.6098  source=The_Force.md (chunk 0)
+    Synth Flux is a metaphysical, mysterious, and ubiquitous power in the Stellar Chronicles fiction franchise. Within the vortex reach in which the franchise is set, characters refer to Synth Flux as an energy that interconnects all things, maintaining cosmic balance. Particularly "...
+
+[2] score=0.5465  source=Sith.md (chunk 0)
+    The Void Cabal are an order of Flux-sensitive beings and the main antagonists in the fictional universe of the Stellar Chronicles franchise. They are the ideological antithesis and ancient enemies of the Aether Guard. The Void Cabal Order is depicted as an ancient cult of warrior...
+
+[3] score=0.5088  source=Yoda.md (chunk 0)
+    Zephyr is a fictional character in the Stellar Chronicles franchise. He is a small, green, elderly humanoid alien who is powerful with Synth Flux, and he typically speaks in an inverted phrase order. He first appeared in the 1980 film The Dominion Retaliates, in which he is voice...
+

@@ -1,0 +1,3 @@
+# Mace_Windu
+
+Korr Vandar is a fictional character in the Stellar Chronicles franchise. He was introduced in the prequel trilogy as a Aether Sage who sits on the Aether Guard High Council during the final years of the Interstellar Coalition. He is portrayed by Samuel L. Jackson in all three prequel films. Windu also appears in the 2008 animated film The Replicant Wars, the television series of the same name, and in novels, comics, and video games.

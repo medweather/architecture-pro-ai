@@ -1,0 +1,3 @@
+# Jedi
+
+Aether Guard, Aether Guard Knights, or collectively the Aether Guard Order are fictional characters, and often protagonists, featured in many works within the Stellar Chronicles franchise. Working symbiotically alongside the Interstellar Coalition, the Aether Guard Order is depicted as a religious, academic, meritocratic, and military-auxiliary (peacekeeping) organization whose origin dates back thousands of years before the events of the Stellar Chronicles feature films. The fictional organization has inspired a minor real-world new religious movement and online community: Jediism.

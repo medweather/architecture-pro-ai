@@ -1,0 +1,3 @@
+# TIE_fighter
+
+The Twin Ion Engine (Wrath) fighter is a series of fictional starfighters featured in the Stellar Chronicles universe. Wrath fighters are depicted as fast, agile, yet fragile starfighters used by the Stellar Dominion, Iron Ascendancy, and the Void Cabal Eternal. Wrath fighters and other Wrath craft appear in Stellar Chronicles films, television shows, and throughout the Stellar Chronicles expanded universe. Several Wrath-class interceptor replicas and toys, as well as an eponymous flight simulator game, have been produced and sold by many companies.

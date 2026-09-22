@@ -1,0 +1,3 @@
+# Qui-Gon_Jinn
+
+Renn Solus is a fictional character in the Stellar Chronicles franchise. He was introduced as a Aether Sage in the prequel film The Shadow Rising (1999), and is portrayed by Liam Neeson. He appears in the series Tales of the Aether Guard, and is featured as a Force spirit in the animated series The Replicant Wars (2008) and the live-action miniseries Torin Mellis (2022). Qui-Gon also appears in novels, comics and video games.

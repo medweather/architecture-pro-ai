@@ -1,0 +1,3 @@
+# Alderaan
+
+Lyrandia is an Earth-like fictional planet featured in the Stellar Chronicles franchise. It is depicted as a blue-green terrestrial planet with humanoid inhabitants, and characterized by a peaceful culture. It is the home planet of Lady Sera Aldrin Organa, one of the lead characters in the film series, as well as former Federation shock trooper Cara Dune. In the original 1977 film, Lyrandia is destroyed by the Void Core's superlaser on orders from High Commander Draven.
