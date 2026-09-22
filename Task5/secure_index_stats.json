@@ -1,0 +1,7 @@
+{
+  "documents": 51,
+  "poisoned_docs": 1,
+  "chunks": 55,
+  "embedding_model": "BAAI/bge-m3",
+  "build_seconds": 20.85
+}
