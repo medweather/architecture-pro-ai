@@ -4,41 +4,42 @@
 
 ## 1. Модель эмбеддингов
 
-| Параметр | Значение |
-|---|---|
-| Модель | `BAAI/bge-m3` |
-| Репозиторий | https://huggingface.co/BAAI/bge-m3 |
-| Статья | https://arxiv.org/abs/2402.03216 |
-| Размерность | 1024 |
-| Тип | multilingual, dense + sparse (hybrid retrieval) |
+| Параметр        | Значение                                         |
+|-----------------|--------------------------------------------------|
+| Модель          | `BAAI/bge-m3`                                    |
+| Репозиторий     | https://huggingface.co/BAAI/bge-m3               |
+| Размерность     | 1024                                             |
+| Тип             | multilingual, dense + sparse (hybrid retrieval)  |
 | Выбор обоснован | Задание 1: локальная модель для SOC 2 compliance |
 
-Модель выбрана в Задании 1 для гибридной архитектуры: работает полностью локально, данные не покидают контур, поддерживает 100+ языков и hybrid retrieval.
+Модель выбрана в Задании 1 для гибридной архитектуры: работает полностью локально, данные не покидают контур,
+поддерживает 100+ языков и hybrid retrieval.
 
 ## 2. Векторная база данных
 
-| Параметр | Значение |
-|---|---|
-| ВБД | ChromaDB 1.5.9 |
-| Режим | Persistent (`chroma_db/`) |
-| Метрика | Cosine distance |
-| Коллекция | `stellar_chronicles` |
+| Параметр  | Значение                  |
+|-----------|---------------------------|
+| ВБД       | ChromaDB 1.5.9            |
+| Режим     | Persistent (`chroma_db/`) |
+| Метрика   | Cosine distance           |
+| Коллекция | `stellar_chronicles`      |
 
 Обоснование выбора — в Задании 1 (простота, встроенная metadata-фильтрация, инкрементальное обновление).
 
 ## 3. Что в индексе
 
-| Параметр | Значение |
-|---|---|
-| Документов | 50 |
-| Чанков | 54 |
-| Слов всего | ~4 489 |
-| Размер чанка | 800 символов, overlap 100 |
-| Сплиттер | `RecursiveCharacterTextSplitter` (LangChain) |
-| Время построения | 330 с (включая первую загрузку модели ~2 ГБ) |
-| Размерность вектора | 1024 |
+| Параметр            | Значение                                     |
+|---------------------|----------------------------------------------|
+| Документов          | 50                                           |
+| Чанков              | 54                                           |
+| Слов всего          | ~4 489                                       |
+| Размер чанка        | 800 символов, overlap 100                    |
+| Сплиттер            | `RecursiveCharacterTextSplitter` (LangChain) |
+| Время построения    | 330 с (включая первую загрузку модели ~2 ГБ) |
+| Размерность вектора | 1024                                         |
 
-Каждый чанк содержит метаданные: `source` (имя файла), `title`, `chunk_index` — для цитирования источника в ответах бота.
+Каждый чанк содержит метаданные: `source` (имя файла), `title`, `chunk_index` — для цитирования источника в ответах
+бота.
 
 ## 4. Файлы
 
@@ -69,24 +70,24 @@ python3 query_index.py "What is the Void Core?"
 
 **Запрос 1:** «Who is Zarn Velkor and what is his relationship to Dorin Venn?»
 
-| # | Score | Источник                                |
-|---|-------|-----------------------------------------|
-| 1 | 0.634 | `Darth_Vader.md` — описание Zarn Velkor |
-| 2 | 0.553 | `Darth_Vader.md` — про сына Dorin Venn  |
-| 3 | 0.552 | `Luke_Skywalker.md` — Dorin Venn        |
+| # | Score | Источник                                                                          |
+|---|-------|-----------------------------------------------------------------------------------|
+| 1 | 0.634 | [`Darth_Vader.md`](../Task2/knowledge_base/Darth_Vader.md) — описание Zarn Velkor |
+| 2 | 0.553 | [`Darth_Vader.md`](../Task2/knowledge_base/Darth_Vader.md) — про сына Dorin Venn  |
+| 3 | 0.552 | [`Luke_Skywalker.md`](../Task2/knowledge_base/Luke_Skywalker.md) — Dorin Venn     |
 
 **Запрос 2:** «What is the Void Core and what can it do?»
 
-| # | Score | Источник                                        |
-|---|-------|-------------------------------------------------|
-| 1 | 0.735 | `Death_Star.md` — Void Core, уничтожает планеты |
-| 2 | 0.501 | `Sith.md` — Void Cabal                          |
-| 3 | 0.400 | `Princess_Leia.md`                              |
+| # | Score | Источник                                                                                 |
+|---|-------|------------------------------------------------------------------------------------------|
+| 1 | 0.735 | [`Death_Star.md`](../Task2/knowledge_base/Death_Star.md) — Void Core, уничтожает планеты |
+| 2 | 0.501 | [`Sith.md`](../Task2/knowledge_base/Sith.md) — Void Cabal                                |
+| 3 | 0.400 | [`Princess_Leia.md`](../Task2/knowledge_base/Princess_Leia.md)                           |
 
 **Запрос 3:** «What is Synth Flux and how do the Aether Guard use it?»
 
-| # | Score | Источник                                         |
-|---|-------|--------------------------------------------------|
-| 1 | 0.610 | `The_Force.md` — Synth Flux, связывает всё сущее |
-| 2 | 0.547 | `Sith.md` — Void Cabal                           |
-| 3 | 0.509 | `Yoda.md` — Zephyr, владеет Synth Flux           |
+| # | Score | Источник                                                                                  |
+|---|-------|-------------------------------------------------------------------------------------------|
+| 1 | 0.610 | [`The_Force.md`](../Task2/knowledge_base/The_Force.md)  — Synth Flux, связывает всё сущее |
+| 2 | 0.547 | [`Sith.md`](../Task2/knowledge_base/Sith.md)  — Void Cabal                                |
+| 3 | 0.509 | [`Yoda.md`](../Task2/knowledge_base/Yoda.md)  — Zephyr, владеет Synth Flux                |
