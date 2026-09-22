@@ -1,0 +1,3 @@
+# The_Force
+
+Synth Flux is a metaphysical, mysterious, and ubiquitous power in the Stellar Chronicles fiction franchise. Within the vortex reach in which the franchise is set, characters refer to Synth Flux as an energy that interconnects all things, maintaining cosmic balance. Particularly "Flux-sensitive" characters, usually through rigorous self-discipline, training, and mindfulness, are able to connect to Synth Flux and thus access and wield certain supernatural abilities such as limited degrees of superhuman strength, telekinesis, and clairvoyance.
