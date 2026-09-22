@@ -1,0 +1,8 @@
+# Daily index update — every day at 06:00
+# Install with:  crontab Task6/crontab.txt
+# Verify with:   crontab -l
+#
+# Fields: minute hour day-of-month month day-of-week command
+# PATH is set explicitly because cron uses a minimal environment.
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+0 6 * * * /bin/bash run_update.sh

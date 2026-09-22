@@ -1,0 +1,58 @@
+@startuml Architecture
+!theme plain
+skinparam shadowing false
+skinparam defaultFontName Helvetica
+title Автоматическое ежедневное обновление базы знаний
+
+actor "Планировщик\ncron 06:00" as CRON #E8F0FE
+actor "Инженер\n(ручной запуск)" as USER #E8F0FE
+
+rectangle "Архитектура" as ROOT {
+
+  folder "docs/" as DOCS #FFF3CD {
+    artifact "*.md\n(новые / изменённые /\nудалённые)" as NEWDOC
+  }
+
+  component "run_update.sh\nlock + retry" as RUN #D4EDDA
+
+  rectangle "update_index.py" as SCRIPT #D4EDDA {
+    usecase "1. Скан docs/\n(SHA-256)" as SCAN
+    usecase "2. Diff со state.json" as DIFF
+    usecase "3. Чанкинг\n800/100 символов" as CHUNK
+    usecase "4. Эмбеддинги\nBAAI/bge-m3 (1024)" as EMBED
+  }
+
+  database "chroma_db/\nChromaDB\nstellar_chronicles_live" as VDB #D1ECF1 {
+    artifact "add / update / delete\nчанков" as OPS
+  }
+
+  file "state.json\n(хеши файлов)" as STATE #F8D7DA
+
+  folder "logs/" as LOGS #E2E3E5 {
+    file "update.log\n(человекочитаемый)" as LOGTXT
+    file "update_log.jsonl\n(структурный)" as LOGJSON
+    file "cron.log\n(запуски cron)" as LOGCRON
+  }
+}
+
+CRON --> RUN
+USER --> RUN
+note right of RUN
+  Ежедневно в 06:00.
+  Lock против параллельных
+  запусков, retry 1 раз.
+end note
+
+RUN --> SCRIPT
+SCRIPT --> DOCS : читает
+SCRIPT --> STATE : читает / пишет
+SCAN --> DIFF
+DIFF --> CHUNK
+CHUNK --> EMBED
+EMBED --> OPS : векторы
+OPS --> VDB
+SCRIPT --> LOGTXT : пишет
+SCRIPT --> LOGJSON : пишет
+RUN --> LOGCRON : stdout / stderr
+
+@enduml
