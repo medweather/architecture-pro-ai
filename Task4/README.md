@@ -61,7 +61,6 @@ System-промпт содержит правило: *«Отвечай ТОЛЬ�
 | [`rag_bot.py`](rag_bot.py)               | Модуль RAG + REPL-интерфейс                   |
 | [`demo_dialogues.py`](demo_dialogues.py) | Прогон демо-диалогов и сохранение транскрипта |
 | [`demo_dialogues.md`](demo_dialogues.md) | 5 успешных диалогов + 2 отказа                |
-| [`README.md`](README.md)                 | Этот файл                                     |
 
 ## Запуск
 
