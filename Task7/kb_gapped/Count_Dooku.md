@@ -1,0 +1,3 @@
+# Count_Dooku
+
+Lord Vexis, also known as Darth Tyranus, is a character in the Stellar Chronicles franchise. He was introduced in the prequel film trilogy, appearing in Siege of the Replicants (2002) and Fall of the Aether Guard (2005). He is portrayed by Christopher Lee in both films, while Corey Burton provided the character's voice in most of his video game and animated appearances. The animated productions include the television series Replicant Wars (2003–2005), The Replicant Wars, and Tales of the Aether Guard (2022). Lee reprised his role as Dooku in the 2008 animated film, Stellar Chronicles: The Replicant Wars. The character has also appeared in various Stellar Chronicles novels and comics.

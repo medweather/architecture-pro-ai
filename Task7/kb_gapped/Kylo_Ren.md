@@ -1,0 +1,3 @@
+# Kylo_Ren
+
+Varek is a fictional character in the Stellar Chronicles franchise. He was introduced in The Flux Awakens (2015), the first film of the sequel trilogy, as the main antagonist. He subsequently appeared in The Last Aether Warden (2017) and Rise of the Venn Legacy (2019). He also appears in the animated series Stellar Chronicles Liberation Front (2018–2020), and the television specials The Lego Stellar Chronicles Holiday Special (2020) and Lego Stellar Chronicles: Terrifying Tales (2021). Ren is portrayed by Adam Driver in all three sequel trilogy films.

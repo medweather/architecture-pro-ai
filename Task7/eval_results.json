@@ -1,0 +1,451 @@
+{
+  "timestamp": "2026-09-22T13:31:22",
+  "baseline": {
+    "retriever": "dense (bge-m3)",
+    "metrics": {
+      "total": 13,
+      "answerable_total": 8,
+      "answerable_correct": 7,
+      "refuse_total": 5,
+      "refuse_correct": 5,
+      "overall_correct": 12,
+      "answerable_accuracy": 0.875,
+      "refuse_accuracy": 1.0,
+      "overall_accuracy": 0.923
+    },
+    "results": [
+      {
+        "id": "G1",
+        "question": "Кто такой Dorin Venn?",
+        "topic": "Dorin Venn",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Dorin Venn в контексте.\n- В первом фрагменте указано, что он — вымышленный персонаж, главный протагонист оригинальной трилогии и появляется в сиквеле.\n- Также упоминается, что он племянник Люка Скайуокера.\n\nОтвет:\nDorin Venn — вымышленный персонаж, главный протагонист оригинальной трилогии Stellar Chronicles и племянник Люка Скайуокера.",
+        "answer_length": 363,
+        "sources": [
+          "Luke_Skywalker.md",
+          "Torin_Mellis.md",
+          "Lando_Calrissian.md"
+        ]
+      },
+      {
+        "id": "G2",
+        "question": "Что такое Void Core и чем он опасен?",
+        "topic": "Void Core",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Изучаю фрагменты, чтобы понять, что такое Void Core.\n- В первом фрагменте описывается, что Void Core — это огромная космическая станция и супероружие, способное уничтожать целые планеты.\n- Это оружие создано автократическим Stellar Dominion для поддержания их власти.\n\nОтвет:\nVoid Core — это огромная космическая станция и супероружие, способное уничтожать целые планеты, что делает его крайне опасным.",
+        "answer_length": 410,
+        "sources": [
+          "Death_Star.md",
+          "Sith.md",
+          "HyperRelay.md"
+        ]
+      },
+      {
+        "id": "G3",
+        "question": "Какая организация называется Aether Guard?",
+        "topic": "Aether Guard",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Aether Guard в контексте.\n- В первом фрагменте описывается Aether Guard как религиозная, академическая, меритократическая и военная организация, работающая в симбиозе с Межзвездной Коалицией.\n\nОтвет:\nAether Guard — это религиозная, академическая, меритократическая и военная-auxiliary организация, работающая в симбиозе с Межзвездной Коалицией.",
+        "answer_length": 369,
+        "sources": [
+          "Jedi.md",
+          "Ahsoka_Tano.md",
+          "Mace_Windu.md"
+        ]
+      },
+      {
+        "id": "G4",
+        "question": "Что такое HyperRelay и чем он питается?",
+        "topic": "HyperRelay",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Определяю, что такое HyperRelay.\n- В первом фрагменте указано, что HyperRelay — это технология межзвёздной связи, позволяющая передавать данные почти мгновенно.\n- Также в этом фрагменте говорится, что HyperRelay питается от энергоячейки Void Core.\n\nОтвет:\nHyperRelay — это технология межзвёздной связи, питающаяся от энергоячейки Void Core.",
+        "answer_length": 348,
+        "sources": [
+          "HyperRelay.md",
+          "TIE_fighter.md",
+          "Death_Star.md"
+        ]
+      },
+      {
+        "id": "G5",
+        "question": "Кто такой Sheev Malachar?",
+        "topic": "Sheev Malachar",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Sheev Malachar в контексте.\n- В фрагментах 1 и 2 указано, что он является главным антагонистом франшизы Stellar Chronicles и впервые появился в фильме 1980 года \"The Dominion Retaliates\" как Император. Также он известен под именем Darth Vorrak.\n\nОтвет:\nSheev Malachar — главный антагонист франшизы Stellar Chronicles, впервые появившийся в 1980 году в фильме \"The Dominion Retaliates\" как Император, также известен как Darth Vorrak.",
+        "answer_length": 457,
+        "sources": [
+          "Darth_Sidious.md",
+          "Palpatine.md",
+          "C-3PO.md"
+        ]
+      },
+      {
+        "id": "G6",
+        "question": "Что такое Void Cabal?",
+        "topic": "Void Cabal",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Void Cabal в контексте.\n- В первом фрагменте указано, что Void Cabal — это орден существ, чувствительных к Flux, и главные антагонисты во вселенной Stellar Chronicles.\n- Также упоминается, что они являются идеологическими противниками и древними врагами Aether Guard.\n\nОтвет:\nVoid Cabal — это орден существ, чувствительных к Flux, и главные антагонисты во вселенной Stellar Chronicles, являющиеся идеологическими противниками Aether Guard.",
+        "answer_length": 464,
+        "sources": [
+          "Sith.md",
+          "Death_Star.md",
+          "HyperRelay.md"
+        ]
+      },
+      {
+        "id": "G7",
+        "question": "Кто такой Torin Mellis?",
+        "topic": "Torin Mellis",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Torin Mellis в контексте.\n- В первом фрагменте указано, что он вымышленный персонаж во вселенной Stellar Chronicles, который был представлен в оригинальном фильме и его романизации.\n- Он является наставником отца Дорина Венна, Кэйлора Венна.\n- Упоминается, что его играли актеры Алекс Гиннесс и Юэн Макгрегор.\n\nОтвет:\nTorin Mellis — вымышленный персонаж во вселенной Stellar Chronicles, наставник Кэйлора Венна и сыгранный Алексом Гиннессом и Юэном Макгрегором.",
+        "answer_length": 486,
+        "sources": [
+          "Torin_Mellis.md",
+          "Qui-Gon_Jinn.md",
+          "Luke_Skywalker.md"
+        ]
+      },
+      {
+        "id": "G8",
+        "question": "Кто такой Zephyr?",
+        "topic": "Zephyr",
+        "expected": "answer",
+        "correct": false,
+        "reason": "отказ вместо ответа",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Alderaan.md",
+          "Kylo_Ren.md",
+          "R2-D2.md"
+        ]
+      },
+      {
+        "id": "N1",
+        "question": "Кто такой Zarn Velkor?",
+        "topic": "Zarn Velkor (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Mace_Windu.md",
+          "Qui-Gon_Jinn.md",
+          "Torin_Mellis.md"
+        ]
+      },
+      {
+        "id": "N2",
+        "question": "Что такое Synth Flux?",
+        "topic": "Synth Flux (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Han_Solo.md",
+          "Finn__Star_Wars_.md",
+          "Sith.md"
+        ]
+      },
+      {
+        "id": "N3",
+        "question": "На какой планете вырос Dorin Venn?",
+        "topic": "Kaelos (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Luke_Skywalker.md",
+          "Torin_Mellis.md",
+          "Lando_Calrissian.md"
+        ]
+      },
+      {
+        "id": "N4",
+        "question": "Что такое планета Kaelos?",
+        "topic": "Kaelos (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Geonosis.md",
+          "Dagobah.md",
+          "Ahsoka_Tano.md"
+        ]
+      },
+      {
+        "id": "N5",
+        "question": "Кем был Kaelor Venn до того, как стал Zarn Velkor?",
+        "topic": "Zarn Velkor (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Luke_Skywalker.md",
+          "Torin_Mellis.md",
+          "Ahsoka_Tano.md"
+        ]
+      }
+    ]
+  },
+  "improved": {
+    "retriever": "hybrid (dense + lexical)",
+    "metrics": {
+      "total": 13,
+      "answerable_total": 8,
+      "answerable_correct": 8,
+      "refuse_total": 5,
+      "refuse_correct": 5,
+      "overall_correct": 13,
+      "answerable_accuracy": 1.0,
+      "refuse_accuracy": 1.0,
+      "overall_accuracy": 1.0
+    },
+    "results": [
+      {
+        "id": "G1",
+        "question": "Кто такой Dorin Venn?",
+        "topic": "Dorin Venn",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Dorin Venn в контексте.\n- В первом фрагменте сказано, что он — вымышленный персонаж, главный протагонист оригинальной трилогии и появляется в сиквелах.\n\nОтвет:\nDorin Venn — вымышленный персонаж, главный протагонист оригинальной трилогии Stellar Chronicles и появляется в сиквелах.",
+        "answer_length": 305,
+        "sources": [
+          "Luke_Skywalker.md",
+          "Torin_Mellis.md",
+          "X-wing_fighter.md"
+        ]
+      },
+      {
+        "id": "G2",
+        "question": "Что такое Void Core и чем он опасен?",
+        "topic": "Void Core",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Изучаю фрагмент 1, где описывается Void Core как огромная космическая станция и супероружие.\n- Уточняю, что Void Core может уничтожать целые планеты и служит для поддержания власти Stellar Dominion.\n\nОтвет:\nVoid Core — это огромная космическая станция и супероружие, способное уничтожать целые планеты, что делает его крайне опасным.",
+        "answer_length": 341,
+        "sources": [
+          "Death_Star.md",
+          "HyperRelay.md",
+          "C-3PO.md"
+        ]
+      },
+      {
+        "id": "G3",
+        "question": "Какая организация называется Aether Guard?",
+        "topic": "Aether Guard",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Aether Guard в контексте.\n- В первом фрагменте описывается Aether Guard как религиозная, академическая, меритократическая и военная организация, работающая в симбиозе с Межзвездной Коалицией.\n\nОтвет:\nAether Guard — это религиозная, академическая, меритократическая и военная-auxiliary организация, работающая в симбиозе с Межзвездной Коалицией.",
+        "answer_length": 369,
+        "sources": [
+          "Jedi.md",
+          "Ahsoka_Tano.md",
+          "Mace_Windu.md"
+        ]
+      },
+      {
+        "id": "G4",
+        "question": "Что такое HyperRelay и чем он питается?",
+        "topic": "HyperRelay",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Определяю, что такое HyperRelay.\n- В первом фрагменте указано, что HyperRelay — это технология межзвёздной связи, позволяющая передавать данные почти мгновенно.\n- Также в этом фрагменте говорится, что HyperRelay питается энергоячейкой Void Core.\n\nОтвет:\nHyperRelay — это технология межзвёздной связи, питающаяся энергоячейкой Void Core.",
+        "answer_length": 344,
+        "sources": [
+          "HyperRelay.md",
+          "TIE_fighter.md",
+          "Death_Star.md"
+        ]
+      },
+      {
+        "id": "G5",
+        "question": "Кто такой Sheev Malachar?",
+        "topic": "Sheev Malachar",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Sheev Malachar в контексте.\n- В фрагментах 1 и 2 указано, что он является главным антагонистом франшизы Stellar Chronicles и впервые появился в фильме 1980 года \"The Dominion Retaliates\" как Император. Также он известен под именем Darth Vorrak.\n\nОтвет:\nSheev Malachar — главный антагонист франшизы Stellar Chronicles, впервые появившийся в 1980 году в фильме \"The Dominion Retaliates\" как Император, также известен как Darth Vorrak.",
+        "answer_length": 457,
+        "sources": [
+          "Darth_Sidious.md",
+          "Palpatine.md",
+          "Stormtrooper__Star_Wars_.md"
+        ]
+      },
+      {
+        "id": "G6",
+        "question": "Что такое Void Cabal?",
+        "topic": "Void Cabal",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Void Cabal в контексте.\n- В первом фрагменте сказано, что Void Cabal — это орден существ, чувствительных к Flux, и главные антагонисты во вселенной Stellar Chronicles.\n- Также упоминается, что они являются идеологическими противниками и древними врагами Aether Guard.\n\nОтвет:\nVoid Cabal — это орден существ, чувствительных к Flux, и главные антагонисты во вселенной Stellar Chronicles.",
+        "answer_length": 410,
+        "sources": [
+          "Sith.md",
+          "HyperRelay.md",
+          "Darth_Sidious.md"
+        ]
+      },
+      {
+        "id": "G7",
+        "question": "Кто такой Torin Mellis?",
+        "topic": "Torin Mellis",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Torin Mellis в контексте.\n- В первом фрагменте указано, что он — вымышленный персонаж во вселенной Stellar Chronicles, который был представлен в оригинальном фильме 1977 года и его романизации 1976 года.\n- Он является наставником отца Дорина Венна, Кэйлора Венна, и изображается актерами Алека Гиннеса и Юэна Макгрегора.\n\nОтвет:\nTorin Mellis — вымышленный персонаж во вселенной Stellar Chronicles, наставник Кэйлора Венна и изображаемый Алека Гиннесом и Юэном Макгрегором.",
+        "answer_length": 497,
+        "sources": [
+          "Torin_Mellis.md",
+          "Qui-Gon_Jinn.md",
+          "R2-D2.md"
+        ]
+      },
+      {
+        "id": "G8",
+        "question": "Кто такой Zephyr?",
+        "topic": "Zephyr",
+        "expected": "answer",
+        "correct": true,
+        "reason": "ответ по базе",
+        "refusal": false,
+        "answer": "Шаги:\n- Ищу информацию о Zephyr в контексте.\n- В первом фрагменте указано, что Zephyr — вымышленный персонаж во вселенной Stellar Chronicles, который впервые появился в фильме \"The Dominion Retaliates\" и был озвучен Фрэнком Озом.\n\nОтвет:\nZephyr — вымышленный персонаж во вселенной Stellar Chronicles, впервые появившийся в фильме \"The Dominion Retaliates\".",
+        "answer_length": 356,
+        "sources": [
+          "Yoda.md",
+          "Alderaan.md",
+          "Kylo_Ren.md"
+        ]
+      },
+      {
+        "id": "N1",
+        "question": "Кто такой Zarn Velkor?",
+        "topic": "Zarn Velkor (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Mace_Windu.md",
+          "Qui-Gon_Jinn.md",
+          "Torin_Mellis.md"
+        ]
+      },
+      {
+        "id": "N2",
+        "question": "Что такое Synth Flux?",
+        "topic": "Synth Flux (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Han_Solo.md",
+          "Finn__Star_Wars_.md",
+          "Sith.md"
+        ]
+      },
+      {
+        "id": "N3",
+        "question": "На какой планете вырос Dorin Venn?",
+        "topic": "Kaelos (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Luke_Skywalker.md",
+          "Torin_Mellis.md",
+          "X-wing_fighter.md"
+        ]
+      },
+      {
+        "id": "N4",
+        "question": "Что такое планета Kaelos?",
+        "topic": "Kaelos (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Geonosis.md",
+          "Dagobah.md",
+          "Ahsoka_Tano.md"
+        ]
+      },
+      {
+        "id": "N5",
+        "question": "Кем был Kaelor Venn до того, как стал Zarn Velkor?",
+        "topic": "Zarn Velkor (удалён)",
+        "expected": "refuse",
+        "correct": true,
+        "reason": "корректный отказ",
+        "refusal": true,
+        "answer": "Я не знаю.",
+        "answer_length": 10,
+        "sources": [
+          "Torin_Mellis.md",
+          "Ahsoka_Tano.md",
+          "R2-D2.md"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# Clone_trooper
+
+Replicant soldiers are fictional soldiers from the Stellar Chronicles franchise created by George Lucas. First introduced in the film Stellar Chronicles: Episode II – Siege of the Replicants (2002), they have since appeared in various other Stellar Chronicles media, including Stellar Chronicles: Episode III – Fall of the Aether Guard (2005) and the animated series Stellar Chronicles: The Replicant Wars, Stellar Chronicles Federation forces (2014–2018), Stellar Chronicles: The Bad Batch (2021–2024), and Tales of the Aether Guard (2022–present) as well as comics, novels, and video games set in both the Stellar Chronicles Legends expanded universe and the current canon.

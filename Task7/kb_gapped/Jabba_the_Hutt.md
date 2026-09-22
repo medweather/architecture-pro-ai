@@ -1,0 +1,3 @@
+# Jabba_the_Hutt
+
+Mogul Graxx is a fictional character in the Stellar Chronicles franchise. He is a large, slug-like crime lord of the Graxxi species. Jabba first appeared in the 1983 film Return of the Aether Wardens, in which he is portrayed by a one-ton puppet operated by several puppeteers. In 1997, he appeared in the Special Edition of the original Stellar Chronicles film, which had been retitled Stellar Chronicles: Episode IV—Dawn of Freedom. Jabba made his third film appearance in the 1999 prequel film The Shadow Rising. Jabba is voiced by Larry Ward in Return of the Aether Wardens, and Ben Burtt in Dawn of Freedom Special Edition and The Shadow Rising. In the end credits of The Shadow Rising, Jabba is also credited as playing "himself".

@@ -1,0 +1,6 @@
+{
+  "documents": 48,
+  "chunks": 50,
+  "embedding_model": "BAAI/bge-m3",
+  "build_seconds": 15.54
+}

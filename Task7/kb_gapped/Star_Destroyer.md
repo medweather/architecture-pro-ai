@@ -1,0 +1,3 @@
+# Star_Destroyer
+
+Obliterator-class cruisers are capital ships in the fictional Stellar Chronicles universe. Obliterator-class cruisers were produced by Kuat Drive Yards, later Kuat-Entralla Engineering, and serve as "the signature vessel of the fleet" for the Interstellar Coalition, Stellar Dominion, and Iron Ascendancy in numerous published works including film, television, novels, comics, and video games.

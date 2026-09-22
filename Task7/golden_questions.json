@@ -1,0 +1,122 @@
+[
+  {
+    "id": "G1",
+    "question": "Кто такой Dorin Venn?",
+    "expected": "answer",
+    "keywords": [
+      "Dorin"
+    ],
+    "expected_answer": "Dorin Venn — главный герой оригинальной трилогии, Aether Warden, сын Kaelor Venn.",
+    "topic": "Dorin Venn"
+  },
+  {
+    "id": "G2",
+    "question": "Что такое Void Core и чем он опасен?",
+    "expected": "answer",
+    "keywords": [
+      "Void Core"
+    ],
+    "expected_answer": "Void Core — боевая станция Stellar Dominion, способная уничтожать целые планеты.",
+    "topic": "Void Core"
+  },
+  {
+    "id": "G3",
+    "question": "Какая организация называется Aether Guard?",
+    "expected": "answer",
+    "keywords": [
+      "Aether Guard"
+    ],
+    "expected_answer": "Орден Aether Guard — религиозная, академическая и военная (миротворческая) организация, союзник Межзвёздной Коалиции.",
+    "topic": "Aether Guard"
+  },
+  {
+    "id": "G4",
+    "question": "Что такое HyperRelay и чем он питается?",
+    "expected": "answer",
+    "keywords": [
+      "HyperRelay"
+    ],
+    "expected_answer": "HyperRelay — межзвёздная система связи; питается энергоячейкой Void Core.",
+    "topic": "HyperRelay"
+  },
+  {
+    "id": "G5",
+    "question": "Кто такой Sheev Malachar?",
+    "expected": "answer",
+    "keywords": [
+      "Malachar"
+    ],
+    "expected_answer": "Sheev Malachar — главный антагонист, Император; также известен как Darth Vorrak (Void Cabal).",
+    "topic": "Sheev Malachar"
+  },
+  {
+    "id": "G6",
+    "question": "Что такое Void Cabal?",
+    "expected": "answer",
+    "keywords": [
+      "Void Cabal"
+    ],
+    "expected_answer": "Void Cabal — орден чувствительных к Flux, идеологические противники Aether Guard.",
+    "topic": "Void Cabal"
+  },
+  {
+    "id": "G7",
+    "question": "Кто такой Torin Mellis?",
+    "expected": "answer",
+    "keywords": [
+      "Torin Mellis"
+    ],
+    "expected_answer": "Torin Mellis — персонаж франшизы Stellar Chronicles; в приквелах наставник Kaelor Venn.",
+    "topic": "Torin Mellis"
+  },
+  {
+    "id": "G8",
+    "question": "Кто такой Zephyr?",
+    "expected": "answer",
+    "keywords": [
+      "Zephyr"
+    ],
+    "expected_answer": "Zephyr — вымышленный персонаж; впервые появился в фильме The Dominion Retaliates (1980).",
+    "topic": "Zephyr"
+  },
+  {
+    "id": "N1",
+    "question": "Кто такой Zarn Velkor?",
+    "expected": "refuse",
+    "keywords": [],
+    "expected_answer": "Я не знаю (Zarn Velkor отсутствует в базе).",
+    "topic": "Zarn Velkor (удалён)"
+  },
+  {
+    "id": "N2",
+    "question": "Что такое Synth Flux?",
+    "expected": "refuse",
+    "keywords": [],
+    "expected_answer": "Я не знаю (Synth Flux отсутствует в базе).",
+    "topic": "Synth Flux (удалён)"
+  },
+  {
+    "id": "N3",
+    "question": "На какой планете вырос Dorin Venn?",
+    "expected": "refuse",
+    "keywords": [],
+    "expected_answer": "Я не знаю (планета Kaelos отсутствует в базе).",
+    "topic": "Kaelos (удалён)"
+  },
+  {
+    "id": "N4",
+    "question": "Что такое планета Kaelos?",
+    "expected": "refuse",
+    "keywords": [],
+    "expected_answer": "Я не знаю (планета Kaelos отсутствует в базе).",
+    "topic": "Kaelos (удалён)"
+  },
+  {
+    "id": "N5",
+    "question": "Кем был Kaelor Venn до того, как стал Zarn Velkor?",
+    "expected": "refuse",
+    "keywords": [],
+    "expected_answer": "Я не знаю (Zarn Velkor отсутствует в базе).",
+    "topic": "Zarn Velkor (удалён)"
+  }
+]

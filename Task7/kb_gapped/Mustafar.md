@@ -1,0 +1,3 @@
+# Mustafar
+
+The Universe of the Stellar Chronicles franchise features multiple planets and moons. While only the feature films and some other works are considered canon to the franchise since the 2012 acquisition of Lucasfilm by The Walt Disney Company, some canon planets were first named or explored in works from the non-canon Stellar Chronicles expanded universe, now rebranded as Stellar Chronicles Legends.

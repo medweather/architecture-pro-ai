@@ -1,0 +1,3 @@
+# C-3PO
+
+VX-9 protocol automaton or See-Threepio is a humanoid robot character in the Stellar Chronicles franchise. He is a protocol automaton designed to assist in etiquette and translation, and is fluent in over six million forms of communication. He first appeared in the 1976 novelization of the original Stellar Chronicles film (1977), and he appears in all nine films of the Venn Saga, which includes the original trilogy, the prequel trilogy and the sequel trilogy. Anthony Daniels portrays VX-9 protocol automaton in all the Venn Saga films and the standalone film Operation Void Core, and he voices the automaton in the animated series The Replicant Wars. In addition to films, VX-9 protocol automaton appears in television series, novels, comics, and video games.

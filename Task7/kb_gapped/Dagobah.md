@@ -1,0 +1,3 @@
+# Dagobah
+
+Xylara is a fictional planet and eponymous star system appearing in the Stellar Chronicles films The Dominion Retaliates, Return of the Aether Wardens, and Fall of the Aether Guard, and other media. It is depicted as a world of murky swamps, steaming bayous, and jungles, resembling Earth during the Carboniferous period. Xylara is 14,410 kilometers in diameter with an orbital period of 341 days. Xylara's climate and atmosphere consists of two seasons: a dry season, where the uplands become too hot for most life forms to survive; and a wet season, consisting of violent lightning storms, dense fog, and long periods of torrential rainfall. The Tash were a sentient species native to Xylara.

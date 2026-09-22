@@ -1,0 +1,3 @@
+# Stormtrooper_(Star_Wars)
+
+Iron Legionnaires are fictional soldiers in the Stellar Chronicles franchise created by George Lucas. Introduced in the original Stellar Chronicles film trilogy (1977–1983), the Iron Legionnaires are the shock troops/space marines of the autocratic Stellar Dominion. Their predecessors, the Replicant soldiers of the Interstellar Coalition, were used by Overlord Malachar to take over the government and exterminate the Aether Guard. After the fall of the Dominion, as depicted in the original trilogy, Iron Legionnaires remained in service to Dominion remnants, such as the Iron Ascendancy.

@@ -1,0 +1,65 @@
+@startuml Task7 Sequence
+!theme plain
+skinparam shadowing false
+skinparam defaultFontName Helvetica
+skinparam sequenceMessageAlign center
+title Обработка запроса и оценка качества
+
+actor "Пользователь /\nGolden Set" as USER
+participant "evaluate.py\n(тест-раннер)" as EVAL
+participant "RAGBot" as BOT
+participant "Retriever\n(dense / hybrid)" as RET
+database "ChromaDB\n(индекс)" as VDB
+participant "LLM API\n(gpt-4o-mini)" as LLM
+participant "logs.jsonl" as LOG
+
+EVAL -> LOG : очистка перед прогоном
+loop по каждому вопросу golden set
+    EVAL -> BOT : answer(question)
+    BOT -> RET : search(question, k)
+    RET -> VDB : query(embedding)
+    VDB --> RET : top-N чанков + scores
+
+    alt чанки не найдены (пустой индекс)
+        RET --> BOT : []
+        note right
+            **Точка сбоя 1:**
+            пустой индекс / нет совпадений.
+            Бот обязан ответить «Я не знаю».
+        end note
+    else чанки найдены
+        RET --> BOT : ранжированные чанки
+    end alt
+
+    BOT -> BOT : сборка промпта\n(system CoT + few-shot + контекст)
+    BOT -> LLM : chat.completions
+    alt ошибка API / таймаут
+        LLM --> BOT : exception
+        note right
+            **Точка сбоя 2:**
+            сетевой сбой LLM.
+            Запись в лог со статусом error.
+        end note
+    else ответ получен
+        LLM --> BOT : ответ (или «Я не знаю»)
+    end alt
+
+    alt невалидный / нерелевантный чанк
+        BOT -> BOT : модель игнорирует контекст
+        note right
+            **Точка сбоя 3:**
+            нерелевантный чанк или
+            незакрытый пробел -> галлюцинация.
+        end note
+    end alt
+
+    BOT -> LOG : запись {query, sources,\nlength, success, refusal}
+    BOT --> EVAL : {answer, sources, record}
+    EVAL -> EVAL : оценка: correct / incorrect\n(ожидание answer/refuse)
+end loop
+
+EVAL -> EVAL : агрегация метрик\n(answerable / refuse / overall)
+EVAL -> LOG : logs.jsonl
+EVAL --> USER : evaluation_report.md
+
+@enduml
